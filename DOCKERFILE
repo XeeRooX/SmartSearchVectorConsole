@@ -1,0 +1,8 @@
+FROM ollama/ollama
+
+COPY ./run-ollama.sh /run-ollama.sh
+#WORKDIR /tmp
+EXPOSE 11434
+
+RUN chmod +x run-ollama.sh && ./run-ollama.sh
+
