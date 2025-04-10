@@ -399,5 +399,5 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-./ollama/*
-./qdrant_storage/*
+ollama/*
+qdrant_storage/*
